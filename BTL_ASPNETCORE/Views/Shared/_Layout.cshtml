@@ -1,0 +1,464 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    var path = Context.Request.Path;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from restina.netlify.app/html/ltr/about_us_01 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 01 Nov 2024 07:11:48 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+    <title>RESTINA - Food & Restaurant HTML Template With RTL</title>
+    <link rel="icon" type="image/png" href="/user/assets/images/favicon.png">
+    <link rel="stylesheet" href="/user/assets/css/all.min.css">
+    <link rel="stylesheet" href="/user/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/user/assets/css/nice-select.css">
+    <link rel="stylesheet" href="/user/assets/css/slick.css">
+    <link rel="stylesheet" href="/user/assets/css/venobox.min.css">
+    <link rel="stylesheet" href="/user/assets/css/ranger_slider.css">
+    <link rel="stylesheet" href="/user/assets/css/animate.css">
+    <link rel="stylesheet" href="/user/assets/css/scroll_button.css">
+    <link rel="stylesheet" href="/user/assets/css/custom_spacing.css">
+    <link rel="stylesheet" href="/user/assets/css/select2.min.css">
+    <link rel="stylesheet" href="/user/assets/css/colorfulTab.min.css">
+    <link rel="stylesheet" href="/user/assets/css/jquery.animatedheadline.css">
+    <link rel="stylesheet" href="/user/assets/css/animated_barfiller.css">
+    <link rel="stylesheet" href="/user/assets/css/style.css">
+    <link rel="stylesheet" href="/user/assets/css/responsive.css">
+    <style>
+        /* Pagination Container */
+        .pagination-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        /* Pagination List */
+        .pagination {
+            display: inline-flex;
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+            /* Page Items (li elements) */
+            .pagination .page-item {
+                margin: 0 5px;
+            }
+
+            /* Circular Page Links (a elements) */
+            .pagination .page-link {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 40px; /* Width for circular button */
+                height: 40px; /* Height for circular button */
+                padding: 0; /* Remove padding */
+                border-radius: 50%; /* Make it circular */
+                color: #007bff; /* Text color */
+                text-decoration: none; /* No underline */
+                background-color: #f1f1f1; /* Background color */
+                border: 1px solid #ddd; /* Border around button */
+                transition: all 0.3s ease; /* Smooth transition */
+            }
+
+                /* Hover Effect */
+                .pagination .page-link:hover {
+                    background-color: #007bff;
+                    color: #fff;
+                }
+
+            /* Active Page Item */
+            .pagination .active .page-link {
+                background-color: #007bff;
+                color: #fff;
+                border-color: #007bff;
+            }
+
+            /* Disabled Page Item */
+            .pagination .disabled .page-link {
+                color: #ccc;
+                background-color: #e9ecef;
+                border-color: #ddd;
+                pointer-events: none; /* Prevent clicking on disabled links */
+            }
+
+    </style>
+</head>
+
+<body>
+    <!--==========================
+        HEADER START
+    ===========================-->
+    <header>
+        <div class="container container_large">
+            <div class="row">
+                <div class="col-xl-6 col-md-6 d-none d-md-block">
+                    <div class="header_left">
+                        <p><i class="far fa-truck"></i> Free Express shipping over $200!</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6">
+                    <div class="header_right">
+                        <ul>
+                            <li>
+                                <select class="select_js">
+                                    <option value="">English</option>
+                                    <option value="">Japanes</option>
+                                    <option value="">Korean</option>
+                                    <option value="">Urdu</option>
+                                    <option value="">Chines</option>
+                                    <option value="">Arabic</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select class="select_js">
+                                    <option value="">$ USD</option>
+                                    <option value="">ট BDT</option>
+                                    <option value="">€ EUR</option>
+                                    <option value="">£ GBP</option>
+                                    <option value="">¥ JPY</option>
+                                </select>
+                            </li>
+                            @if (HttpContextAccessor.HttpContext.Session.GetString("username") != null)
+                            {
+                                <li>
+                                    <a href="">
+                                        <span>
+                                            <img src="/user/assets/images/user_icon.png" alt="user"
+                                                 class="img-fluid w-100">
+                                        </span>
+                                        Hello @HttpContextAccessor.HttpContext.Session.GetString("username")
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/home/logout">
+                                        <span>
+                                            <img src="/user/assets/images/user_icon.png" alt="user"
+                                                 class="img-fluid w-100">
+                                        </span>
+                                        logout
+                                    </a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <a href="/home/login">
+                                        <span>
+                                            <img src="/user/assets/images/user_icon.png" alt="user"
+                                                 class="img-fluid w-100">
+                                        </span>
+                                        Login
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/home/register">
+                                        <span>
+                                            <img src="/user/assets/images/user_icon.png" alt="user"
+                                                 class="img-fluid w-100">
+                                        </span>
+                                        Register
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--==========================
+        HEADER END
+    ===========================-->
+    <!--==========================
+        MENU START
+    ===========================-->
+    <nav class="navbar navbar-expand-lg main_menu">
+        <div class="container container_large">
+            <a class='navbar-brand' href='index.html'>
+                <img src="/user/assets/images/logo.png" alt="RESTINA" class="img-fluid w-100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <i class="fas fa-bars bar_icon"></i>
+                <i class="far fa-times close_icon"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link @(path.ToString().ToLower().Equals("/home") ? "active" : "")" href="/home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link @(path.ToString().ToLower().Contains("menu") ? "active" : "")" href="/home/menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link @(path.ToString().ToLower().Contains("about") ? "active" : "")" href="/home/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class='nav-link @(path.ToString().ToLower().Contains("contact") ? "active" : "")' href="/home/contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class='nav-link @(path.ToString().ToLower().Contains("branch") ? "active" : "")' href="/home/branch">Branch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class='nav-link @(path.ToString().ToLower().Contains("chef") ? "active" : "")' href="/home/chef">Chef</a>
+                    </li>
+                </ul>
+                <ul class="menu_right">
+                    <li>
+                        <a class="menu_search"><i class="far fa-search"></i></a>
+                    </li>
+                    <li>
+                        <a class="menu_cart" href="/cart/cart">
+                            <i class="far fa-shopping-basket"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class='menu_order common_btn' href="/home/menu">
+                            <span class="icon">
+                                <img src="/user/assets/images/cart_icon_1.png" alt="order" class="img-fluid w-100">
+                            </span>
+                            order now
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="menu_search_area">
+        <form>
+            <input type="text" placeholder="Search Item...">
+            <button class="common_btn" type="submit">Search</button>
+            <span class="close_search"><i class="far fa-times"></i></span>
+        </form>
+    </div>
+
+    <div class="mini_cart">
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel"> my cart <span>(05)</span></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <i class="far fa-times"></i>
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                    <li>
+                        <div class="cart_img">
+                            <img src="/user/assets/images/cart_img_1.png" alt="product" class="img-fluid w-100">
+                            <a class="del_icon" href="#"><i class="fas fa-minus-circle"></i></a>
+                        </div>
+                        <div class="cart_text">
+                            <a class="cart_title" href="#">Lemon Meat Bone</a>
+                            <p>$140 <del>$150</del></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cart_img">
+                            <img src="/user/assets/images/cart_img_2.png" alt="product" class="img-fluid w-100">
+                            <a class="del_icon" href="#"><i class="fas fa-minus-circle"></i></a>
+                        </div>
+                        <div class="cart_text">
+                            <a class="cart_title" href="#">Three Carrot Vegetables</a>
+                            <p>$130 <del>$160</del></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cart_img">
+                            <img src="/user/assets/images/cart_img_3.png" alt="product" class="img-fluid w-100">
+                            <a class="del_icon" href="#"><i class="fas fa-minus-circle"></i></a>
+                        </div>
+                        <div class="cart_text">
+                            <a class="cart_title" href="#">Bengal Meat Beef Bone</a>
+                            <p>$140 <del>$150</del></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cart_img">
+                            <img src="/user/assets/images/cart_img_4.png" alt="product" class="img-fluid w-100">
+                            <a class="del_icon" href="#"><i class="fas fa-minus-circle"></i></a>
+                        </div>
+                        <div class="cart_text">
+                            <a class="cart_title" href="#">Three Carrot Vegetables</a>
+                            <p>$140</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cart_img">
+                            <img src="/user/assets/images/cart_img_5.png" alt="product" class="img-fluid w-100">
+                            <a class="del_icon" href="#"><i class="fas fa-minus-circle"></i></a>
+                        </div>
+                        <div class="cart_text">
+                            <a class="cart_title" href="#">Orange Slice Mix</a>
+                            <p>$140</p>
+                        </div>
+                    </li>
+                </ul>
+                <h5>sub total <span>$3540</span></h5>
+                <div class="minicart_btn_area">
+                    <a class='common_btn' href='cart_view.html'>view cart<span></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==========================
+        MENU END
+    ===========================-->
+    <!--==========================
+        BREADCRUMB AREA START
+    ===========================-->
+    @RenderBody()
+    <!--==========================
+        FOOTER START
+    ===========================-->
+    <footer class="pt_100 mt_120 xs_mt_100">
+        <div class="container">
+            <div class="row justify-content-between wow fadeInUp">
+                <div class="col-lg-3 col-md-4">
+                    <div class="footer_info">
+                        <a class='footer_logo' href='index.html'>
+                            <img src="/user/assets/images/footer_logo.png" alt="RESTINA" class="img-fluid w-100">
+                        </a>
+                        <p>Cras incident lobotids feudist makes viramas sagittas eu valuta.</p>
+                        <ul>
+                            <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 col-md-4">
+                    <div class="footer_link">
+                        <h3>Our Menu</h3>
+                        <ul>
+                            <li><a href="#">Breakfast</a></li>
+                            <li><a href="#">Lunch</a></li>
+                            <li><a href="#">Dinner</a></li>
+                            <li><a href="#">Vegetable</a></li>
+                            <li><a href="#">Korean Food</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 col-md-4">
+                    <div class="footer_link">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Services</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-9">
+                    <div class=" footer_post">
+                        <h3>Recent Post</h3>
+                        <ul>
+                            <li>
+                                <div class="img">
+                                    <img src="/user/assets/images/footer_post_img_1.jpg" alt="post" class="img-fluid w-100">
+                                </div>
+                                <div class="text">
+                                    <p><i class="far fa-clock"></i> March 24, 2024</p>
+                                    <a href="#">THE WONDERS OF THAI CUISINE SWEET, SALTY & SOUR</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img">
+                                    <img src="/user/assets/images/footer_post_img_2.jpg" alt="post" class="img-fluid w-100">
+                                </div>
+                                <div class="text">
+                                    <p><i class="far fa-clock"></i> March 24, 2024</p>
+                                    <a href="#">PAIRING WINE WITH INDIAN FOOD: TIPS FROM A SOMMELIER</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt_80 wow fadeInUp">
+                <div class="col-12">
+                    <div class="footer_subscribe">
+                        <h2>Subscription News</h2>
+                        <form>
+                            <input type="text" placeholder="Enter Your Email">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer_copyright">
+                        <p>Copyright © RESTINA 2024. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--==========================
+        FOOTER END
+    ===========================-->
+    <!--==========================
+        SCROLL BUTTON START
+    ===========================-->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!--==========================
+        SCROLL BUTTON END
+    ===========================-->
+    <!--jquery library js-->
+    <script src="/user/assets/js/jquery-3.7.1.min.js"></script>
+    <!--bootstrap js-->
+    <script src="/user/assets/js/bootstrap.bundle.min.js"></script>
+    <!--font-awesome js-->
+    <script src="/user/assets/js/Font-Awesome.js"></script>
+    <!--nice select js-->
+    <script src="/user/assets/js/jquery.nice-select.min.js"></script>
+    <!--marquee js-->
+    <script src="/user/assets/js/jquery.marquee.min.js"></script>
+    <!--slick js-->
+    <script src="/user/assets/js/slick.min.js"></script>
+    <!--countup js-->
+    <script src="/user/assets/js/jquery.waypoints.min.js"></script>
+    <script src="/user/assets/js/jquery.countup.min.js"></script>
+    <!--venobox js-->
+    <script src="/user/assets/js/venobox.min.js"></script>
+    <!--scroll button js-->
+    <script src="/user/assets/js/scroll_button.js"></script>
+    <!--price ranger js-->
+    <script src="/user/assets/js/ranger_jquery-ui.min.js"></script>
+    <script src="/user/assets/js/ranger_slider.js"></script>
+    <!--select 2 js-->
+    <script src="/user/assets/js/select2.min.js"></script>
+    <!--aos js-->
+    <script src="/user/assets/js/wow.min.js"></script>
+    <!--colorfulTab js-->
+    <script src="/user/assets/js/colorfulTab.min.js"></script>
+    <!--sticky sidebar js-->
+    <script src="/user/assets/js/sticky_sidebar.js"></script>
+    <!--animated barfiller js-->
+    <script src="/user/assets/js/animated_barfiller.js"></script>
+    <!--animatedheadline js-->
+    <script src="/user/assets/js/jquery.animatedheadline.min.js"></script>
+    <!--script/custom js-->
+    <script src="/user/assets/js/script.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+
+
+<!-- Mirrored from restina.netlify.app/html/ltr/about_us_01 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 01 Nov 2024 07:11:53 GMT -->
+</html>

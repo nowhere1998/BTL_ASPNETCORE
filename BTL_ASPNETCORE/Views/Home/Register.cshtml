@@ -1,0 +1,76 @@
+﻿@model BTL_ASPNETCORE.Models.Account
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--==========================
+        REGISTER START
+    ===========================-->
+<section class="sign_up sign_in">
+    <div class="row justify-content-center">
+        <div class="col-xl-6 col-lg-6 wow fadeInLeft">
+            <div class="sign_in_img">
+                <img src="/user/assets/images/sign_in_img_2.jpg" alt="sign in" class="img-fluid w-100">
+            </div>
+        </div>
+        <div class="col-xl-6 col-md-10 col-lg-6 wow fadeInRight">
+            <div class="sign_in_form">
+                <a class='sign_in_logo' href='index.html'>
+                    <img src="/user/assets/images/logo.png" alt="sign in" class="img-fluid w-100">
+                </a>
+                <h2>Create Account</h2>
+                <p class="description">Please Enter your Email Address to Start your Online Application</p>
+                <form action="/home/register" method="post">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="text" placeholder="Full Name..." asp-for="Name">
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="col-xl-12">
+                            <input type="email" placeholder="Email..." asp-for="Email">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                            <span class="text-danger">@ViewBag.Email</span>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="password" placeholder="Password..." asp-for="Password">
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="password" placeholder="Confirm Password..." name="confirmPassword">
+                            <span class="text-danger">@ViewBag.ErrorConfirmPassword</span>
+                        </div>
+                        <div class="col-12">
+                            <button class="common_btn" type="submit">Register</button>
+                        </div>
+                    </div>
+                </form>
+                <p class="or">or</p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span>
+                                <img src="/user/assets/images/google_icon.svg" alt="google" class="img-fluid w-100">
+                            </span>
+                            Google
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>
+                                <img src="/user/assets/images/fb_icon.svg" alt="facebook" class="img-fluid w-100">
+                            </span>
+                            Facebook
+                        </a>
+                    </li>
+                </ul>
+                <p class="dont_account">Have an account? <a href="/home/login">Sign in</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--==========================
+    REGISTER END
+===========================-->
+

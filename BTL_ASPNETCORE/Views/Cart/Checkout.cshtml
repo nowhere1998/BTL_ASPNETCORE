@@ -1,0 +1,117 @@
+﻿@model IEnumerable<BTL_ASPNETCORE.Models.Cart>
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    ViewData["Title"] = "Checkout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    float totalPriceCart = 0;
+    int totalQuantity = 0;
+    foreach (var item in Model)
+    {
+        totalQuantity += item.Quantity;
+        totalPriceCart += item.Price * item.Quantity;
+    }
+}
+
+<!--==========================
+        BREADCRUMB AREA START
+    ===========================-->
+<section class="breadcrumb_area" style="background: url(/user/assets/images/breadcrumb_bg.jpg);">
+    <div class="container">
+        <div class="row wow fadeInUp">
+            <div class="col-12">
+                <div class="breadcrumb_text">
+                    <h1>checkout</h1>
+                    <ul>
+                        <li><a href="#">Home </a></li>
+                        <li><a href="#">checkout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--==========================
+    BREADCRUMB AREA END
+===========================-->
+<!--==========================
+    CHECKOUT START
+===========================-->
+<h1 class="text-center text-danger">@ViewBag.ErrorCheckout</h1>
+<section class="checkout pt_110 xs_pt_90">
+    <div class="container">
+        <div class="row">
+            <form asp-controller="Cart" asp-action="Checkout" method="post">
+                <div class="col-lg-8 wow fadeInLeft">
+                    <div class="checkout_area">
+                        <h2>Billing Details</h2>
+                        <input type="hidden" name="accountId" value='@HttpContextAccessor.HttpContext.Session.GetString("accountId")' />
+                        <input type="hidden" name="totalPrice" value="@totalPriceCart" />
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" placeholder="Name" name="name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" placeholder="Your Email" name="email">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" placeholder="Your Phone" name="phone">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" placeholder="Company (Optional)">
+                            </div>
+                            <div class="col-md-6">
+                                <select class="select_2" name="state">
+                                    <option value="AL">Select Country</option>
+                                    <option value="">Japan</option>
+                                    <option value="">Korea</option>
+                                    <option value="">Thailand</option>
+                                    <option value="">singapore</option>
+                                    <option value="">Landon</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <select class="select_2" name="state">
+                                    <option value="AL">Select city</option>
+                                    <option value="">Dhaka</option>
+                                    <option value="">cox's bazal</option>
+                                    <option value="">rajshahi</option>
+                                    <option value="">khulna</option>
+                                    <option value="">pabna</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" placeholder="Zip">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" placeholder="Address" name="address">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea rows="7" placeholder="Additional Information"></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7 wow fadeInRight">
+                    <div class="checkout_sidebar">
+                        <h2>Your Order</h2>
+                        <div class="cart_summery">
+                            <h6>total cart (@totalQuantity)</h6>
+                            <p>subtotal: <span>$@totalPriceCart</span></p>
+                            <p>delivery: <span>$00.00</span></p>
+                            <p>discount: <span>$0.00</span></p>
+                            <p class="total"><span>total:</span> <span>$@totalPriceCart</span></p>
+                            <button type="submit">
+                                <a class="common_btn">checkout</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!--==========================
+    CHECKOUT END
+===========================-->

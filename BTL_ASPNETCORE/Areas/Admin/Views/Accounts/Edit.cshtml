@@ -1,0 +1,120 @@
+﻿@model BTL_ASPNETCORE.Models.Account
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/Index.cshtml";
+    var accountId = User.Claims.Skip(1).FirstOrDefault().Value as string;
+}
+
+<h1>Edit Account</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        @if (accountId.Equals(Model.AccountId.ToString()))
+        {
+            <form asp-action="Edit" enctype="multipart/form-data" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="AccountId" />
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" type="password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Confirm Password</label>
+                    <input class="form-control" type="password" name="confirmPassword" />
+                    <span class="text-danger">@ViewBag.ErrorConfirmPassword</span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phone" class="control-label"></label>
+                    <input asp-for="Phone" class="form-control" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Role" class="control-label"></label>
+                    <select asp-for="Role">
+                        <option value="0">User</option>
+                        <option value="1">Admin</option>
+                        <option value="2" disabled>Deactive</option>
+                    </select>
+                    <span asp-validation-for="Role" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Image" class="control-label"></label>
+                    <input asp-for="Image" class="form-control" type="file" />
+                    <input type="hidden" value="@Model.Image" name="oldImage" />
+                    <img src="@Model.Image" width="100px" />
+                    <span asp-validation-for="Image" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        }
+        else
+        {
+            <form asp-action="Edit" enctype="multipart/form-data" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="AccountId" />
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <span class="form-control">@Model.Name</span>
+                    <input asp-for="Name" class="form-control" type="hidden"/>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input asp-for="Password" class="form-control" type="hidden" value="@Model.Password"/>
+                    <input name="confirmPassword" class="form-control" type="hidden" value="@Model.Password"/>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <span class="form-control">@Model.Email</span>
+                    <input asp-for="Email" class="form-control" type="hidden"/>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phone" class="control-label"></label>
+                    <span class="form-control">@Model.Phone</span>
+                    <input asp-for="Phone" class="form-control" type="hidden"/>
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Role" class="control-label"></label>
+                    <select asp-for="Role" class="form-control">
+                        <option value="0">User</option>
+                        <option value="1">Admin</option>
+                        <option value="2" disabled>Deactive</option>
+                    </select>
+                    <span asp-validation-for="Role" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Image" class="control-label"></label>
+                    <input asp-for="Image" class="form-control" type="file" />
+                    <input type="hidden" value="@Model.Image" name="oldImage" />
+                    <img src="@Model.Image" width="100px" />
+                    <span asp-validation-for="Image" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        }
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

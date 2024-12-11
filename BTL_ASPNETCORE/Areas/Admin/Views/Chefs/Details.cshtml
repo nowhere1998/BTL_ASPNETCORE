@@ -1,0 +1,36 @@
+﻿@model BTL_ASPNETCORE.Models.Chef
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/Index.cshtml";
+}
+
+<h1>Details Chef</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.ChefName)
+        </dt>
+        <dd class = "col-sm-6 form-control">
+            @Html.DisplayFor(model => model.ChefName)
+        </dd>
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Image)
+        </dt>
+        <dd class = "col-sm-6 form-control">
+            @Html.DisplayFor(model => model.Image)
+        </dd>
+        <dt class = "col-sm-4">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-6 form-control">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ChefId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

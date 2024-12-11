@@ -1,0 +1,78 @@
+﻿@model IEnumerable<BTL_ASPNETCORE.Models.Chef>
+@{
+    ViewData["Title"] = "Chef";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--==========================
+        BREADCRUMB AREA START
+    ===========================-->
+<section class="breadcrumb_area" style="background: url(assets/images/breadcrumb_bg.jpg);">
+    <div class="container">
+        <div class="row wow fadeInUp">
+            <div class="col-12">
+                <div class="breadcrumb_text">
+                    <h1>Our Chefs</h1>
+                    <ul>
+                        <li><a href="#">Home </a></li>
+                        <li><a href="#">Our Chefs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--==========================
+    BREADCRUMB AREA END
+===========================-->
+<!--==========================
+    CHEFS START
+===========================-->
+<section class="shefs pt_95 xs_pt_70">
+    <div class="container">
+        <div class="row">
+            @foreach(var item in Model)
+            {
+                <div class="col-xl-3 col-sm-6 col-lg-4 wow fadeInUp">
+                    <div class="single_chef">
+                        <a class='single_chef_img' href='chefs_details.html'>
+                            <img src="@item.Image" alt="Chef" class="img-fluid w-100">
+                            <span>Chef</span>
+                        </a>
+                        <div class="single_chef_text">
+                            <a class='title' href='chefs_details.html'>@item.ChefName</a>
+                            <ul>
+                                <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            }     
+            @* <div class="pagination_area mt_60 wow fadeInUp">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <i class="far fa-arrow-left"></i>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <i class="far fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div> *@
+        </div>
+    </div>
+</section>
+<!--==========================
+    CHEFS END
+===========================-->
+

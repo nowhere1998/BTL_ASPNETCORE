@@ -1,0 +1,252 @@
+﻿@model IEnumerable<BTL_ASPNETCORE.Models.Cart>
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    ViewData["Title"] = "Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    float totalPriceCart = 0;
+    int totalQuantity = 0;
+    foreach(var item in Model)
+    {
+        totalQuantity += item.Quantity;
+        totalPriceCart += item.Price*item.Quantity;
+    }
+}
+<!--==========================
+        BREADCRUMB AREA START
+    ===========================-->
+<section class="breadcrumb_area" style="background: url(/user/assets/images/breadcrumb_bg.jpg);">
+    <div class="container">
+        <div class="row wow fadeInUp">
+            <div class="col-12">
+                <div class="breadcrumb_text">
+                    <h1>cart view</h1>
+                    <ul>
+                        <li><a href="#">Home </a></li>
+                        <li><a href="#">cart view</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--==========================
+    BREADCRUMB AREA END
+===========================-->
+<!--==========================
+    CART VIEW START
+===========================-->
+<section class="cart_view mt_115 xs_mt_95">
+    <div class="container">
+        <div class="row wow fadeInUp">
+            <div class="col-lg-12">
+                <div class="cart_list">
+                    <div class="table-responsive">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="pro_img">Image</th>
+
+                                    <th class="pro_name">Product Name</th>
+
+                                    <th class="pro_tk">Price</th>
+
+                                    <th class="pro_select">Quantity</th>
+
+                                    <th class="pro_tk">Subtotal</th>
+
+                                    <th class="pro_icon">
+                                        <a class="clear_all" href="#">Clear</a>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="all-dish">
+                                @foreach (var item in Model)
+                                {
+                                    <tr class="dish">
+                                        <td class="pro_img">
+                                            <img src="@item.Image" alt="product"
+                                                 class="img-fluid w-100">
+                                        </td>
+
+                                        <td class="pro_tk">
+                                            <h6>@item.Name</h6>
+                                            <input type="hidden" value="@item.Id" class="dishId" />
+                                        </td>
+
+                                        <td class="pro_tk">
+                                            <h6>$@item.Price</h6>
+                                            <input type="hidden" class="price" value="@item.Price"/>
+                                        </td>
+
+                                        <td class="pro_select">
+                                            <div class="quentity_btn">
+                                                <button class="minus"><i class="fal fa-minus"></i></button>
+                                                <input type="text" value="@item.Quantity" class="quantity">
+                                                <button class="plus"><i class="fal fa-plus"></i></button>
+                                            </div>
+                                        </td>
+
+                                        <td class="pro_tk">
+                                            <h6 class="totalPrice">$@(item.Price * item.Quantity)</h6>
+                                            <input type="hidden" class="totalPriceInput" value="@(item.Price * item.Quantity)" />
+                                        </td>
+
+                                        <td class="pro_icon">
+                                            <a asp-controller="Cart" asp-action="Remove" asp-route-id="@item.Id" onclick="return confirm('Do you sure wanna delete this?')"><i class="far fa-times"></i></a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" cart_list_footer_button mt_60">
+            <div class="row wow fadeInUp">
+                <div class="col-xl-8 col-md-6 col-lg-7">
+                    <form>
+                        <input type="text" placeholder="Coupon Code">
+                        <button class="common_btn" type="submit">apply Coupon</button>
+                    </form>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-5">
+                    <div class="cart_summery">
+                        <h6 class="totalQuantity">total cart (@totalQuantity)</h6>
+                        <p>subtotal: <span class="totalPriceCart">$@totalPriceCart</span></p>
+                        <p>delivery: <span>$00.00</span></p>
+                        <p>discount: <span>$00.00</span></p>
+                        <p><span>total:</span> <span class ="totalPriceCart">$@totalPriceCart</span></p>
+                        @if (Model.Count() != 0)
+                        {
+                            @if (HttpContextAccessor.HttpContext.Session.GetString("username") != null)
+                            {
+                                <a class='common_btn' href="/cart/checkout">checkout</a>
+                            }
+                            else
+                            {
+                                <a class='common_btn' asp-controller="Home" asp-action="Login" asp-route-page="checkout">checkout</a>
+                            }
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--==========================
+    CART VIEW END
+===========================-->
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+
+            $('.minus').on('click', function() {
+                let dish = $(this).closest('.dish');
+                let quantity = dish.find('.quantity').val();
+                if (isNaN(quantity)) {
+                    quantity = 1;
+                }
+                quantity -= 1;
+                if (quantity <= 0) {
+                    quantity = 1;
+                }
+                dish.find('.quantity').val(quantity);
+                var totalPrice = quantity * parseFloat(dish.find('.price').val());
+                dish.find('.totalPrice').text("$" + totalPrice);
+                dish.find('.totalPriceInput').val(totalPrice);
+                let totalPriceCart = 0;
+                let totalQuantity = 0;
+                $('.all-dish .quantity').each(function () {
+                    totalQuantity += parseInt($(this).val());
+                });
+                $('.totalQuantity').text("total cart (" + totalQuantity+")");
+                $('.all-dish .totalPriceInput').each(function () {
+                    totalPriceCart += parseFloat($(this).val());
+                });
+                $('.totalPriceCart').text("$" + totalPriceCart);
+                $.ajax({
+                    url: "/cart/update",
+                    method: 'GET',
+                    data: { id: dish.find('.dishId').val(), quantity: quantity },
+                    dataType: 'json',
+                    success: function (response) {
+                        console.log(response);
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error:', error);
+                    }
+                });
+            });
+            $('.plus').on('click', function () {
+                let dish = $(this).closest('.dish');
+                let quantity = dish.find('.quantity').val();
+                if (isNaN(quantity)) {
+                    quantity = 1;
+                }
+                quantity = parseInt(quantity) + 1;
+                dish.find('.quantity').val(quantity);
+                var totalPrice = quantity * parseFloat(dish.find('.price').val());
+                dish.find('.totalPrice').text("$" + totalPrice);
+                dish.find('.totalPriceInput').val(totalPrice);
+                let totalPriceCart = 0;
+                let totalQuantity = 0;
+                $('.all-dish .quantity').each(function () {
+                    totalQuantity += parseInt($(this).val());
+                });
+                $('.totalQuantity').text("total cart (" + totalQuantity + ")");
+                $('.all-dish .totalPriceInput').each(function () {
+                    totalPriceCart += parseFloat($(this).val());
+                });
+                $('.totalPriceCart').text("$" + totalPriceCart);
+                $.ajax({
+                    url: "/cart/update",
+                    method: 'GET',
+                    data: { id: dish.find('.dishId').val(), quantity: quantity },
+                    dataType: 'json',
+                    success: function (response) {
+                        console.log(response);
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error:', error);
+                    }
+                });
+            });
+            $('.quantity').on('blur', function () {
+                let dish = $(this).closest('.dish');
+                let quantity = dish.find('.quantity').val();
+                if (isNaN(quantity)) {
+                    quantity = 1;
+                }
+                dish.find('.quantity').val(quantity);
+                var totalPrice = quantity * parseFloat(dish.find('.price').val());
+                dish.find('.totalPrice').text("$" + totalPrice);
+                dish.find('.totalPriceInput').val(totalPrice);
+                let totalPriceCart = 0;
+                let totalQuantity = 0;
+                $('.all-dish .quantity').each(function () {
+                    totalQuantity += parseInt($(this).val());
+                });
+                $('.totalQuantity').text("total cart (" + totalQuantity + ")");
+                $('.all-dish .totalPriceInput').each(function () {
+                    totalPriceCart += parseFloat($(this).val());
+                });
+                $('.totalPriceCart').text("$" + totalPriceCart);
+                $.ajax({
+                    url: "/cart/update",
+                    method: 'GET',
+                    data: { id: dish.find('.dishId').val(), quantity: quantity },
+                    dataType: 'json',
+                    success: function (response) {
+                        console.log(response);
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error:', error);
+                    }
+                });
+            });
+        });
+    </script>
+}

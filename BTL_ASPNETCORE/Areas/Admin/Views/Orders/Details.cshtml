@@ -1,0 +1,45 @@
+﻿@model IEnumerable<BTL_ASPNETCORE.Models.OrderDetail>
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/Index.cshtml";
+}
+
+<h1>Order Details</h1>
+
+<div>
+    @foreach(var item in Model)
+    {
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-4">
+                Dish name
+            </dt>
+            <dd class="col-sm-6 form-control">
+                @item.Dish.DishName
+            </dd>
+            <dt class="col-sm-4">
+                Dish price
+            </dt>
+            <dd class="col-sm-6 form-control">
+                $@item.Price
+            </dd>
+            <dt class="col-sm-4">
+                Dish quantity
+            </dt>
+            <dd class="col-sm-6 form-control">
+                @item.Quantity
+            </dd>
+            <dt class="col-sm-4">
+                Order detail price
+            </dt>
+            <dd class="col-sm-6 form-control">
+                $@(item.Price*item.Quantity)
+            </dd>
+        </dl>
+    }
+    
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

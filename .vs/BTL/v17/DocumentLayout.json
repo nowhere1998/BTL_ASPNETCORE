@@ -1,0 +1,952 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\aptech\\HK3\\ASP.NET\\BTL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\dishes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\dishes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\dishes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\dishes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\dishes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\dishes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\chefs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\chefs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\accounts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\accounts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\dishes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\dishes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\chefs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\chefs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\accounts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\adminhome\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\adminhome\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\controllers\\adminhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\controllers\\adminhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\controllers\\dishescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\controllers\\dishescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\views\\shared\\_layouthome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\views\\shared\\_layouthome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\accounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\accounts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\accounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\accounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\models\\cipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\models\\cipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\views\\home\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\views\\home\\branch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\views\\home\\branch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\shared\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\shared\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\adminhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\adminhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\models\\restinacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\models\\restinacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\chefs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\chefs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\chefs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\chefs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|d:\\aptech\\hk3\\asp.net\\btl\\btl_aspnetcore\\areas\\admin\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACEE95AB-6E9E-480B-A8B6-9D6996E9B63C}|BTL_ASPNETCORE\\BTL_ASPNETCORE.csproj|solutionrelative:btl_aspnetcore\\areas\\admin\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T04:31:49.203Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T17:14:25.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Accounts\\Details.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Accounts\\Details.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Accounts\\Details.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Accounts\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:35:34.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Categories\\Details.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Categories\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:36:11.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Chefs\\Details.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Chefs\\Details.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Chefs\\Details.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Chefs\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:36:35.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Dishes\\Details.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Dishes\\Details.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Dishes\\Details.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Dishes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:37:23.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:37:42.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Dishes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Dishes\\Edit.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Dishes\\Edit.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Dishes\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:37:31.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Dishes\\Create.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Dishes\\Create.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Dishes\\Create.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Dishes\\Create.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAEwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:37:17.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\AccountsController.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T06:52:16.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\appsettings.json",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\appsettings.json",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\appsettings.json",
+              "RelativeToolTip": "BTL_ASPNETCORE\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-26T07:30:16.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Program.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Program.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Program.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:30:15.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\AdminHome\\Login.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\AdminHome\\Login.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\AdminHome\\Login.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\AdminHome\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T06:48:21.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Chefs\\Index.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Chefs\\Index.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Chefs\\Index.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Chefs\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADAAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T07:43:10.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Dishes\\Index.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Dishes\\Index.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Dishes\\Index.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Dishes\\Index.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAGAAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T07:43:17.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DishesController.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\DishesController.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\DishesController.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\DishesController.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\DishesController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:23:24.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Accounts\\Index.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Accounts\\Index.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Accounts\\Index.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Accounts\\Index.cshtml",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAIwEgAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:34:57.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADIAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:11:30.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Cart\\Cart.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Views\\Cart\\Cart.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Cart\\Cart.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Views\\Cart\\Cart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T06:31:03.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_LayoutHome.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Shared\\_LayoutHome.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Views\\Shared\\_LayoutHome.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Shared\\_LayoutHome.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Views\\Shared\\_LayoutHome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYDAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T04:31:52.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T04:00:29.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminHomeController.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T04:39:38.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Orders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Orders\\Edit.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Orders\\Edit.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Orders\\Edit.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:38:05.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAAAK0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T04:38:45.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "BTL_ASPNETCORE\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-05T07:03:25.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Views\\Home\\Register.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Views\\Home\\Register.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:20:12.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAIwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:18:49.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Accounts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Accounts\\Edit.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Accounts\\Edit.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Accounts\\Edit.cshtml",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAQwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:36:02.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Accounts\\Create.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Accounts\\Create.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Accounts\\Create.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Accounts\\Create.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:35:12.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAwwFwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T04:23:19.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAQwHQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:23:54.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Controllers\\CartController.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwJMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T04:35:02.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ErrorController.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Controllers\\ErrorController.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Controllers\\ErrorController.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Controllers\\ErrorController.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Controllers\\ErrorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:29:31.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Models\\OrderDetail.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:46:26.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Models\\Order.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Models\\Order.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Models\\Order.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:45:28.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Cipher.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Models\\Cipher.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Models\\Cipher.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Models\\Cipher.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Models\\Cipher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:22:54.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Models\\Cart.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Models\\Cart.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:22:03.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T06:52:18.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T04:44:14.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Home\\Detail.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Views\\Home\\Detail.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Home\\Detail.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Views\\Home\\Detail.cshtml",
+              "ViewState": "AgIAALkCAAAAAAAAAAAIwNYCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T05:42:29.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T04:44:15.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T04:38:49.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Home\\Menu.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Views\\Home\\Menu.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Home\\Menu.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Views\\Home\\Menu.cshtml",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAIwNsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T04:39:52.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Branch.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Home\\Branch.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Views\\Home\\Branch.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Home\\Branch.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Views\\Home\\Branch.cshtml",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAIwCMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T04:39:43.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAIwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T04:39:19.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T06:40:10.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:35:22.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T06:40:14.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Shared\\Index.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Shared\\Index.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Shared\\Index.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Shared\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T04:39:13.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T06:49:14.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Models\\Category.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Models\\Category.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:36:04.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Dish.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Models\\Dish.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Models\\Dish.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Models\\Dish.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Models\\Dish.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA6wBkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:36:27.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "RESTINAContext.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Models\\RESTINAContext.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Models\\RESTINAContext.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Models\\RESTINAContext.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Models\\RESTINAContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:37:37.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Models\\Account.cs",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Models\\Account.cs",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Models\\Account.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:44:37.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Orders\\Create.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Orders\\Create.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Orders\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:37:36.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Chefs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Chefs\\Edit.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Chefs\\Edit.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Chefs\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:37:10.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Chefs\\Create.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Chefs\\Create.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Chefs\\Create.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Chefs\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:36:30.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "D:\\aptech\\HK3\\ASP.NET\\BTL\\BTL_ASPNETCORE\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "BTL_ASPNETCORE\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T05:36:20.607Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

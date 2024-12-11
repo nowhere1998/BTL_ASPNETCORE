@@ -1,0 +1,75 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!--==========================
+        SIGN IN START
+    ===========================-->
+<section class="sign_in">
+    <div class="row justify-content-center">
+        <div class="col-xl-6 col-lg-6 wow fadeInLeft">
+            <div class="sign_in_img">
+                <img src="/user/assets/images/sign_in_img.jpg" alt="sign in" class="img-fluid w-100">
+            </div>
+        </div>
+        <div class="col-xl-6 col-md-10 col-lg-6 wow fadeInRight">
+            <div class="sign_in_form">
+                <a class='sign_in_logo' href='index.html'>
+                    <img src="/user/assets/images/logo.png" alt="sign in" class="img-fluid w-100">
+                </a>
+                <h2>Welcome back, sign in</h2>
+                @Html.Raw(ViewBag.error)
+                <p class="description">Sign in to your account and make recharges. payments and bookings faster</p>
+                <form asp-action="Login" method="post">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" placeholder="Enter your email..." name="email" value="@ViewBag.Email">
+                            <input type="hidden" value="@ViewBag.Page" name="page" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="password" placeholder="Enter your password..." name="password" value="@ViewBag.password">
+                        </div>
+                        <div class="col-md-12">
+                            <div class="sign_in_check_area">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Remember me
+                                    </label>
+                                </div>
+                                <a href='forgot_password.html'>Forget Password?</a>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="common_btn" type="submit">sign in</button>
+                        </div>
+                    </div>
+                </form>
+                <p class="or">or</p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span>
+                                <img src="/user/assets/images/google_icon.svg" alt="google" class="img-fluid w-100">
+                            </span>
+                            Google
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>
+                                <img src="/user/assets/images/fb_icon.svg" alt="facebook" class="img-fluid w-100">
+                            </span>
+                            facebook
+                        </a>
+                    </li>
+                </ul>
+                <p class="dont_account">Don’t have an account? <a href="/home/register">Sign Up</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--==========================
+    SIGN IN END
+===========================-->
